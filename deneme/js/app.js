@@ -38,3 +38,22 @@ new Vue({
         message: "<h1>Login Successfull.</h1>"
     }
 })
+
+
+
+// ************ data.sjon
+
+new Vue({
+
+    el: '#app5',
+    data: {
+        tableData: []
+    },
+    created() {
+        fetch("./json/data.json").then((res) => {
+            return res.json()
+        }).then((res) => {
+            this.tableData = res;
+        })
+    },
+})

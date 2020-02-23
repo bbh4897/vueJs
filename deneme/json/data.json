@@ -1,0 +1,23 @@
+{
+    "cart": [{
+            "name": "Product 1",
+            "description": "Product 1 Dec",
+            "stock": "100"
+        },
+        {
+            "name": "Product 2",
+            "description": "Product 2 Dec",
+            "stock": "200"
+        },
+        {
+            "name": "Product 3",
+            "description": "Product 3 Dec",
+            "stock": "300"
+        },
+        {
+            "name": "Product 4",
+            "description": "Product 4 Dec",
+            "stock": "400"
+        }
+    ]
+}
